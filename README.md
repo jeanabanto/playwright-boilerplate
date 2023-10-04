@@ -1,7 +1,6 @@
-
 <div align="center">
 <h1 align="center">
-<b> wfm-tests </b>
+<b> Playwright </b>
 </h1>
 
 <h3 align="center">📍 PoC using Playwright</h3>
@@ -9,18 +8,18 @@
 
 ---
 
-## Table of Contents 📚 
+## Table of Contents 📚
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Tests](#tests)
-- [Troubleshooting](#troubleshooting)
-- [TODO](#todo)
+-   [Installation](#installation)
+-   [Usage](#usage)
+-   [Project Structure](#project-structure)
+-   [Tests](#tests)
+-   [Troubleshooting](#troubleshooting)
+-   [TODO](#todo)
 
 ---
 
-## Installation 🚀 
+## Installation 🚀
 
 1. .
 
@@ -30,22 +29,23 @@
 
 ---
 
-## Usage 📦 
+## Usage 📦
 
 1. Run with specific environment:
-`ENVIRONMENT=echo_gamma npx playwright test`
+   `ENVIRONMENT=localhost npx playwright test`
 
 2. Run with the UI runner:
-`npx playwright test --ui`
+   `npx playwright test --ui`
 
 ---
 
-## Project Structure 🌲 
+## Project Structure 🌲
+
 ```bash
 .
-└── wfm-tests/
+└── playwright-boilerplate/
     ├── .auth
-    ├── common - functions, helpers, fixtures, etc. 
+    ├── common - functions, helpers, fixtures, etc.
     └── config - environment configuration variables
     └── tests - executable spec files
 
@@ -53,17 +53,16 @@
 
 ---
 
-## Troubleshooting 💥 
+## Troubleshooting 💥
 
-1. 
+1.
 
-2. 
+2.
 
-3. 
+3.
 
 ---
 
-## TODO 🛠 
-- create api tests
+## TODO 🛠
 
-
+-   create api tests
