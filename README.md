@@ -1,0 +1,69 @@
+
+<div align="center">
+<h1 align="center">
+<b> wfm-tests </b>
+</h1>
+
+<h3 align="center">📍 PoC using Playwright</h3>
+</div>
+
+---
+
+## Table of Contents 📚 
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Tests](#tests)
+- [Troubleshooting](#troubleshooting)
+- [TODO](#todo)
+
+---
+
+## Installation 🚀 
+
+1. .
+
+2. .
+
+3. .
+
+---
+
+## Usage 📦 
+
+1. Run with specific environment:
+`ENVIRONMENT=echo_gamma npx playwright test`
+
+2. Run with the UI runner:
+`npx playwright test --ui`
+
+---
+
+## Project Structure 🌲 
+```bash
+.
+└── wfm-tests/
+    ├── .auth
+    ├── common - functions, helpers, fixtures, etc. 
+    └── config - environment configuration variables
+    └── tests - executable spec files
+
+```
+
+---
+
+## Troubleshooting 💥 
+
+1. 
+
+2. 
+
+3. 
+
+---
+
+## TODO 🛠 
+- create api tests
+
+

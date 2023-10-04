@@ -1,0 +1,19 @@
+{
+  "name": "wfm-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@playwright/test": "^1.37.1",
+    "@typescript-eslint/parser": "^6.4.1"
+  }
+}
